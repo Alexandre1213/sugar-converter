@@ -4,7 +4,7 @@
     "description": "Un convertisseur de quantités de sucre entre g/L et mmol/L",
     "lang": "fr-FR",
     "start_url": "/sugar-converter/public/index.html",
-    "scope": "/sugar-converter/public/",
+    "scope": "/",
     "display": "standalone",
     "orientation": "any",
     "theme_color": "#2e2e2e",
