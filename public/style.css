@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(46, 46, 46);
+    color: rgb(255, 255, 255);
+    
+    margin: auto;
+    
+    text-align: center;
+    font-family: Calibri, sans-serif;
+
+    animation: textAnim 3s ease-in-out;
+}
+
+input {
+    background-color: rgb(29, 29, 29);
+    color: rgb(255, 255, 255);
+
+    width: 50%;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    
+    border-radius: 15px;
+    border-color: rgb(39, 39, 39);
+
+    text-align: center;
+    font-size: 2em;
+
+    animation-name: inputAnim;
+    animation-timing-function: ease-out;
+    animation-duration: 3s;
+}
+
+@keyframes textAnim {
+    from {
+        color: rgba(255, 255, 255, 0);
+    }
+
+    to {
+        color: rgba(255, 255, 255, 255);
+    }
+}
+
+@keyframes inputAnim {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 50%;
+    }
+}
+
