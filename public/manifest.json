@@ -3,18 +3,18 @@
     "short_name": "Convertisseur",
     "description": "Un convertisseur de quantités de sucre entre g/L et mmol/L",
     "lang": "fr-FR",
-    "start_url": "./index.html",
-    "scope": ".",
+    "start_url": "/sugar-converter/public/index.html",
+    "scope": "/sugar-converter/public/",
     "display": "standalone",
     "orientation": "any",
     "theme_color": "#2e2e2e",
     "icons": [
       {
-        "src": "/public/icons/icons512.png",
+        "src": "/sugar-converter/public/icons/icons512.png",
         "sizes": "512x512"
       },
       {
-        "src": "/public/icons/icons192.png",
+        "src": "/sugar-converter/public/icons192.png",
         "sizes": "192x192"
       }
     ],
